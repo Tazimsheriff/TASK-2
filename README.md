@@ -1,8 +1,6 @@
+Over the past few days I worked on building a **full advnaced To-Do web app**, and honestly it was way more work than I expected 😂. I started with just a simple “add tasks” thing, but then I slowly kept adding more and more featuers until it kinda became a full mini–product on its own.
 
-
-Over the past few days I worked on building a full advnaced To-Do web app, and honestly it was way more work than I expected 😂. I started with just a simple “add tasks” thing, but then I slowly kept adding more and more featuers until it kinda became a full mini–product on its own.
-
-I added stuff like **search bar**, **filters for category and priority, **pending/completed tabs**, and even **drag & drop sorting** for tasks (which took a while to get it working smoothly ngl). I also included **due dates**, **subtasks**, and a full **edit popup**, so users can actually change things later instead of deleting and retyping everything.
+I added stuff like **search bar**, **filters for category and priority**, **pending/completed tabs**, and even **drag & drop sorting** for tasks (which took a while to get it working smoothly ngl). I also included **due dates**, **subtasks**, and a full **edit popup**, so users can actually change things later instead of deleting and retyping everything.
 
 One thing I’m kinda proud of is the **dark/light theme toggle**, because it makes the app feel way more polished than I thought I could make. And oh yea— I also added **export and import** options, so all tasks can be saved as a JSON file and reloaded later. And ofc, everything is stored in **localStorage**, so tasks don’t disappear when refreshing the page (learned that the hard way lol).
 
