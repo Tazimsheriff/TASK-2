@@ -7,7 +7,3 @@ One thing I’m kinda proud of is the **dark/light theme toggle**, because it ma
 The CSS part took some time too, since I wanted it to look clean but also modern-ish. I tried adding smooth animations, rounded corners, and a nice layout so the UI doesn’t look dull. Still not perfact, but definitley better than my old projects.
 
 Overall, I think I learned a lot about **DOM manipulation**, **event handling**, **state management**, and even some tricky stuff like drag positioning and modal logic. There were some bugs here and there (and probably still are 😂), but finishing this felt really good, like I actually built something useful from scratch.
-
----
-
-Want me to convert this into a **LinkedIn post**, **project report**, or **portfolio description**?
