@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAZIM To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    
+    <div class="top-bar">
+        <h1>📝 Tazim To-Do App</h1>
+        <button id="themeToggle">🌙</button>
+    </div>
+
+    <!-- Search -->
+    <input type="text" id="searchBar" placeholder="Search tasks...">
+
+    <!-- Filters -->
+    <div class="filters">
+        <select id="filterCategory">
+            <option value="all">All Categories</option>
+            <option>Work</option>
+            <option>Home</option>
+            <option>Personal</option>
+        </select>
+
+        <select id="filterPriority">
+            <option value="all">All Priorities</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <div class="tabs">
+            <button class="tab active" data-tab="all">All</button>
+            <button class="tab" data-tab="pending">Pending</button>
+            <button class="tab" data-tab="completed">Completed</button>
+        </div>
+
+        <button id="exportBtn">📤 Export</button>
+        <input type="file" id="importFile" hidden>
+        <button id="importBtn">📥 Import</button>
+    </div>
+
+    <!-- Add Task -->
+    <div class="input-area">
+        <input id="taskInput" type="text" placeholder="Task name...">
+
+        <input id="taskDate" type="date">
+
+        <select id="category">
+            <option>Work</option>
+            <option>Home</option>
+            <option>Personal</option>
+        </select>
+
+        <select id="priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <button id="addBtn">Add</button>
+    </div>
+
+    <!-- Subtask Editor Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <h3>Edit Task</h3>
+            <input type="text" id="editText">
+            <input type="date" id="editDate">
+
+            <h4>Subtasks</h4>
+            <ul id="subtaskList"></ul>
+            <input id="newSubtask" type="text" placeholder="Add subtask...">
+            <button id="addSubtaskBtn">Add Subtask</button>
+
+            <button id="saveEditBtn">Save</button>
+            <button id="closeModalBtn">Close</button>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-section">
+        <p>Progress:</p>
+        <div class="progress-bar">
+            <div id="progressFill"></div>
+        </div>
+    </div>
+
+    <!-- Task List -->
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
